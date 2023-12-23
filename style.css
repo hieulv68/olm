@@ -215,6 +215,13 @@ p {
     padding-right: 20px;
   }
 }
+.separator-line {
+background: linear-gradient(to right,#374EA2,#F58220 100%) no-repeat;
+height: 2px;
+opacity: .8;
+max-width: 730px;
+margin: 0 auto;
+}
 
 .btn {
   /*font-weight: bold;*/
@@ -3283,6 +3290,457 @@ a.olm__psuedo-border:hover .olm__text {
     .pdl__diagram {
         display: none;
     }
+}
+
+.teacher-section {
+    margin: 0;
+    min-width: 974px;
+    padding: 0;
+    width:100%
+}
+.teacher-content {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    width:974px
+}
+.responsive .teacher-section {
+    min-width:320px
+}
+.how-it-works-section .how-it-work-hdr {
+    font-size: 25px;
+    color:#00aeef
+}
+
+.how-it-works-section .teacher-content {
+    padding-top:20px
+}
+
+.how-it-works-section .find-out-btn-container {
+    text-align:center
+}
+.how-it-works-section .teacher-content {
+    padding-top:20px
+}
+
+.how-it-works-section .how-it-work-hdr {
+    font-size: 25px;
+    margin-bottom:20px
+}
+.how-it-works-section .how-it-work-hdr {
+    font-size: 32px;
+    margin-bottom:25px
+}
+.how-it-works-section .teacher-content {
+    padding-top: 40px;
+    padding-bottom:40px
+}
+
+.how-it-works-section .how-it-work-hdr {
+    margin-bottom:35px
+}
+
+.teacher-diagram-container {
+    padding: 10px 0;
+    max-width: 387px;
+    max-height: 215px;
+    margin: 0 auto;
+    width: 100%;
+}
+.teacher-diagram {
+    box-sizing: border-box;
+    padding-bottom: calc(100% * (5 / 9));
+    position: relative;
+}
+
+.teacher-diagram-container {
+    display: none;
+}
+.teacher-diagram-container {
+    display: block;
+    max-width: 873px;
+    max-height: 485px;
+}
+.teacher-diagram-container {
+    padding-bottom: 0;
+}
+.teacher-diagram-img {
+    display: block;
+    position:absolute
+}
+.how-it-works-bubble-top-left {
+    width: 54px;
+    height: 36px;
+}
+.how-it-works-bubble-top-left {
+    top: 25%;
+    left: 28%;
+    transform: translateX(-25%);
+}
+.how-it-works-bubble-top-left {
+    width: 152px;
+    height:72px
+}
+.how-it-works-bubble-top-left {
+    transform:translate(-37%, -25%)
+}
+.how-it-works-bubble-top-left {
+    transform:translate(-37%, -15%)
+}
+.olm-diagram-item {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    border-radius: 50%;
+    display: block;
+    height: calc(25% * 9 / 5);
+    position: absolute;
+    text-decoration: none;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition:all 150ms ease-in-out
+}
+.olm-diagram-item {
+    height: 215px;
+    width:215px
+}
+.olm-diagram-item-curriculum {
+    background-color: #03a5ed;
+    background-image: linear-gradient(to bottom, #27adf7, #00d5f0);
+    left: 50%;
+    top: -1%;
+    transform:translateX(-50%)
+}
+.olm-diagram-item-curriculum:hover {
+    transform:translateX(-50%) scale(1.05)
+}
+
+.olm-diagram-item-curriculum .olm-diagram-description-container {
+    left: 95%;
+    top: 0;
+    padding-left:22px
+}
+
+.olm-diagram-item-curriculum .olm-diagram-description {
+    background-color:#e7f9fe
+}
+
+.olm-diagram-item-curriculum .olm-diagram-description:after {
+    border-color: transparent #e7f9fe transparent transparent;
+    border-width: 8px 20px 8px 0;
+    bottom: 18px;
+    right:calc(100% - 1px)
+}
+
+.olm-diagram-item-curriculum .olm-diagram-learn-more {
+    color:#03a5ed
+}
+.olm-diagram-learn-more .after-arrow {
+    bottom: 1px;
+    height: 15px;
+    position: absolute;
+    right: -17px;
+    width:15px
+}
+.olm-diagram-description-container {
+    display: none;
+    position:absolute
+}
+.olm-diagram-description {
+    border-radius: 5px;
+    color: #545454;
+    font: normal 12px/1.5em Verdana, sans-serif;
+    padding: 10px 15px;
+    position: relative;
+    width:210px
+}
+
+.olm-diagram-description:after {
+    border-style: solid;
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    position:absolute
+}
+.olm-diagram-description {
+    font-size: 13px;
+    width:230px
+}
+.after-arrow-stroke {
+        fill: none;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+.olm-diagram-item-curriculum .olm-diagram-learn-more .after-arrow-stroke {
+    stroke:#03a5ed
+}
+.olm-diagram-hdr {
+    color: #fff;
+    display: none;
+    font: 300 10px "Roboto Slab", sans-serif;
+    font-size: 2.4vw;
+    padding-top: 5px;
+    text-align:center
+}
+.olm-diagram-hdr .bold-hdr {
+    display: block;
+    font-size: 1.5em;
+    font-weight:700
+}
+.olm-diagram-hdr {
+    display: block;
+    padding:14px 0 2px 0
+}
+.olm-diagram-hdr {
+    font-size: 2vw;
+    padding:0 0 5px 0
+}
+.olm-diagram-hdr {
+    padding-top:10px
+}
+.olm-diagram-hdr {
+    font-size:20px
+}
+.olm-diagram-icon-curriculum {
+    width: 37px;
+    height:42px
+}
+.olm-diagram-icon-curriculum {
+    width: 80px;
+    height:55px
+}
+.olm-diagram-icon-curriculum {
+    width: 100px;
+    height:68px
+}
+.olm-diagram-icon-curriculum {
+    width: 100px;
+    height:68px
+}
+.olm-diagram-item-diagnostic {
+    background-color: #48ae03;
+    background-image: linear-gradient(to bottom, #56b521, #63dc38);
+    left: 2%;
+    top: 50%;
+    transform:translateY(-50%)
+}
+.olm-diagram-item-diagnostic:hover {
+    transform:translateY(-50%) scale(1.05)
+}
+
+.olm-diagram-item-diagnostic .olm-diagram-description-container {
+    bottom: 98%;
+    left: 0;
+    padding-bottom:22px
+}
+
+.olm-diagram-item-diagnostic .olm-diagram-description {
+    background-color:#e7f9fe
+}
+
+.olm-diagram-item-diagnostic .olm-diagram-description:after {
+    border-color: #e7f9fe transparent transparent transparent;
+    border-width: 20px 8px 0 8px;
+    left: 60px;
+    top:calc(100% - 1px)
+}
+
+.olm-diagram-item-diagnostic .olm-diagram-learn-more {
+    color:#48ae03
+}
+
+.olm-diagram-item-diagnostic .olm-diagram-learn-more .after-arrow-stroke {
+    stroke:#48ae03
+}
+.olm-diagram-item-diagnostic .olm-diagram-description-container {
+    bottom:calc(100% - 8px)
+}
+.olm-diagram-icon-diagnostic {
+    width: 38px;
+    height:41px
+}
+.olm-diagram-icon-diagnostic {
+    width: 81px;
+    height:54px
+}
+.olm-diagram-icon-diagnostic {
+    width: 100px;
+    height:68px
+}
+.olm-diagram-icon-diagnostic {
+    width: 100px;
+    height:68px
+}
+
+
+.olm-diagram-item-analytics {
+    background-color: #f49c20;
+    background-image: linear-gradient(to top, #fdc040, #f49c20);
+    bottom: -1%;
+    left: 50%;
+    transform:translateX(-50%)
+}
+.olm-diagram-item-analytics:hover {
+    transform:translateX(-50%) scale(1.05)
+}
+
+.olm-diagram-item-analytics .olm-diagram-description-container {
+    bottom: 0;
+    right: 95%;
+    padding-right:22px
+}
+
+.olm-diagram-item-analytics .olm-diagram-description {
+    background-color:#fdf4e8
+}
+
+.olm-diagram-item-analytics .olm-diagram-description:after {
+    border-color: transparent transparent transparent #fdf4e8;
+    border-width: 7px 0 7px 20px;
+    left: calc(100% - 1px);
+    top:18px
+}
+
+.olm-diagram-item-analytics .olm-diagram-learn-more {
+    color:#f49c20
+}
+
+.olm-diagram-item-analytics .olm-diagram-learn-more .after-arrow-stroke {
+    stroke:#f49c20
+}
+.olm-diagram-item-analytics .olm-diagram-description-container {
+    right:calc(100% - 13px)
+}
+
+.olm-diagram-icon-analytics {
+    width: 36px;
+    height:40px
+}
+.olm-diagram-icon-analytics {
+    width: 80px;
+    height:50px
+}
+.olm-diagram-icon-analytics {
+    width: 99px;
+    height:62px
+}
+.olm-diagram-icon-analytics {
+    width: 99px;
+    height:62px
+}
+.olm-diagram-icon-guidance {
+    width: 36px;
+    height:40px
+}
+.olm-diagram-icon-guidance {
+    width: 80px;
+    height:54px
+}
+.olm-diagram-icon-guidance {
+    width: 100px;
+    height:68px
+}
+.olm-diagram-icon-guidance {
+    width: 100px;
+    height:68px
+}
+.olm-diagram-item-guidance {
+    background-color: #9d38dc;
+    background-image: linear-gradient(to bottom, #9d38dc, #a344df 33%, #b566e6 93%, #b86be8);
+    right: 2%;
+    top: 50%;
+    transform:translateY(-50%)
+}
+.olm-diagram-item-guidance:hover {
+    transform:translateY(-50%) scale(1.05)
+}
+
+.olm-diagram-item-guidance .olm-diagram-description-container {
+    right: 0;
+    top: 98%;
+    padding-top:22px
+}
+
+.olm-diagram-item-guidance .olm-diagram-description {
+    background-color:#f9f3fd
+}
+
+.olm-diagram-item-guidance .olm-diagram-description:after {
+    border-color: transparent transparent #f9f3fd transparent;
+    border-width: 0 8px 20px 8px;
+    bottom: calc(100% - 1px);
+    right:60px
+}
+
+.olm-diagram-item-guidance .olm-diagram-learn-more {
+    color:#9d38dc
+}
+
+.olm-diagram-item-guidance .olm-diagram-learn-more .after-arrow-stroke {
+    stroke:#9d38dc
+}
+.how-it-works-bubble-top-right {
+    width: 58px;
+    height:36px
+}
+.how-it-works-bubble-top-right {
+    width: 148px;
+    height:82px
+}
+.how-it-works-bubble-top-right {
+    transform:translate(35%, -25%)
+}
+.how-it-works-bubble-top-right {
+    top: 25%;
+    right: 28%;
+    transform:translateX(25%)
+}
+.how-it-works-bubble-top-right {
+    transform:translate(35%, -15%)
+}
+
+.how-it-works-bubble-btm-left {
+    width: 55px;
+    height:39px
+}
+.how-it-works-bubble-btm-left {
+    bottom: 25%;
+    left: 28%;
+    transform:translateX(-25%)
+}
+.how-it-works-bubble-btm-left {
+    width: 146px;
+    height:71px
+}
+.how-it-works-bubble-btm-left {
+    transform:translateX(-29%)
+}
+.how-it-works-bubble-btm-right {
+    width: 58px;
+    height:38px
+}
+.how-it-works-bubble-btm-right {
+    bottom: 25%;
+    right: 28%;
+    transform:translateX(25%)
+}
+.how-it-works-bubble-btm-right {
+    width: 145px;
+    height:64px
+}
+.how-it-works-bubble-btm-right {
+    transform:translateX(31%)
+}
+.how-it-works-bubble-btm-right {
+    transform:translateX(30%)
+}
+.olm-diagram-item:hover .olm-diagram-description-container {
+    display:block
 }
 
 
