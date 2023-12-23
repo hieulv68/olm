@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="146.164" height="71.241" viewBox="0 0 146.164 71.241">
+    <defs>
+        <style>
+            .cls-1{fill:url(#linear-gradient)}.cls-2{fill:url(#linear-gradient-2)}.cls-3{fill:url(#linear-gradient-3)}.cls-4{fill:url(#linear-gradient-4)}.cls-5{fill:url(#linear-gradient-5)}.cls-6{fill:url(#linear-gradient-6)}.cls-7{fill:url(#linear-gradient-7)}
+        </style>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y1="-4.514" y2="1.545" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#56b521"/>
+            <stop offset="1" stop-color="#63dc38"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1="-2.196" x2="1.042" y1="-.646" y2=".73" gradientUnits="objectBoundingBox">
+            <stop offset=".004" stop-color="#4ab932"/>
+            <stop offset="1" stop-color="#fcbc3c"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-3" x1="-1.712" x2="2.756" y1="-.44" y2="1.459" xlink:href="#linear-gradient-2"/>
+        <linearGradient id="linear-gradient-4" x1="-.195" x2="4.979" y1=".204" y2="2.404" gradientUnits="objectBoundingBox">
+            <stop offset=".004" stop-color="#61d534"/>
+            <stop offset="1" stop-color="#fcbc3c"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-5" x1="-4.611" x2="2.566" y1="-1.673" y2="1.378" xlink:href="#linear-gradient-2"/>
+        <linearGradient id="linear-gradient-6" x1="-.41" x2="3.418" y1=".113" y2="1.741" xlink:href="#linear-gradient-4"/>
+        <linearGradient id="linear-gradient-7" x1=".5" x2=".5" y1="4.483" y2="-1.525" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffc746"/>
+            <stop offset="1" stop-color="#f49c20"/>
+        </linearGradient>
+    </defs>
+    <g id="Group_72" data-name="Group 72" transform="translate(-190.044 -638.551)">
+        <circle id="Ellipse_91" cx="16.106" cy="16.106" r="16.106" class="cls-1" data-name="Ellipse 91" transform="translate(190.044 638.551)"/>
+        <circle id="Ellipse_99" cx="11.486" cy="11.486" r="11.486" class="cls-2" data-name="Ellipse 99" transform="translate(280.058 666)"/>
+        <circle id="Ellipse_100" cx="8.325" cy="8.325" r="8.325" class="cls-3" data-name="Ellipse 100" transform="translate(254.333 667.379)"/>
+        <circle id="Ellipse_101" cx="7.187" cy="7.187" r="7.187" class="cls-4" data-name="Ellipse 101" transform="translate(230.667 652.341)"/>
+        <circle id="Ellipse_102" cx="5.182" cy="5.182" r="5.182" class="cls-5" data-name="Ellipse 102" transform="translate(268.892 688.515)"/>
+        <circle id="Ellipse_103" cx="9.716" cy="9.716" r="9.716" class="cls-6" data-name="Ellipse 103" transform="translate(227.471 672.734)"/>
+        <circle id="Ellipse_114" cx="14.071" cy="14.071" r="14.071" class="cls-7" data-name="Ellipse 114" transform="translate(308.067 681.65)"/>
+    </g>
+</svg>
